@@ -1,6 +1,6 @@
 all:
-	gcc -Wall -c bool.c main.c
-	gcc bool.o main.o -o main
+	gcc -Wall -c ./src/bool.c ./src/arraylist.c main.c
+	gcc bool.o arraylist.o main.o -o main
 
 clean:
-	rm -rf *.o main
+	rm -rf ./src/*.o main
