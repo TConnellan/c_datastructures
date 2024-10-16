@@ -14,6 +14,6 @@ int main(int argc, char *argv[]) {
 
     printf("XOR(x,y) = %u\n", XOR(x,y));
     printf("XOR(x,z) = %u\n", XOR(x,z));
-
+    XOR(5,5);
     return 0;
 }
