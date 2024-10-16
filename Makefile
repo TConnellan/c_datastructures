@@ -3,4 +3,4 @@ all:
 	gcc bool.o arraylist.o main.o -o main
 
 clean:
-	rm -rf ./src/*.o main
+	rm -rf *.o main
